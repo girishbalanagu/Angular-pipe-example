@@ -6,6 +6,6 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  title = "CodeSandbox";
+  title: string = "Custom Pipe Example";
   dob: Date = new Date("01/01/1987");
 }
